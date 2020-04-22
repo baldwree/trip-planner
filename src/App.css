@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: lightcyan;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-width: 2px;
+}
+
+td, th{
+  background-color: lavenderblush;
+}
+
+label {
+  margin-bottom: -2px;
+}
+
+.stop_row {
+  height: 10px;
+  border: solid black 2px;
+  border-radius: 3px;
+}
+
+.table_header {
+  float: left;
+  padding-left: 10px;
+  color: black;
+  font-style: oblique;
+}
+
+.map_controls {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightcyan;
+}
+
+.submit {
+  width: 60px;
+  height: 30px;
+  border: solid black 2px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+.done_block {
+  background-color: lightcyan;
+  margin-bottom: 20px;
+}
+
+.trip-list {
+  background-color: lightcyan;
+}
+
+.tripBtns{
+  width: 85px;
+  height: 25px;
+  border: solid black 2px;
+  border-radius: 2px;
+  margin-bottom: 25px;
+  margin-top: 3px;
+}
+
+#address {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#app_title {
+  font: 26px bold Arial, sans-serif
+}
+
+#name_tag {
+  text-align: left;
+  padding-left: 10px;
+}
+#submit-changes {
+  width: 80px;
+  height: 45px;
+}
+
+#location-btn {
+  width: 120px;
 }
