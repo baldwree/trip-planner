@@ -5,10 +5,10 @@ This app was created for the semester project for CIS371.
 To run the app, in the base directory run "node server.js" to start up the back-end API. To run the client, run "npm start". The client is hosted on localhost:3000, and the server is hosted on localhost:3001.
 
 ## API
-#GET
+GET:
 /trips: Fetches the list of all trips in the DB.
 
-#POST
+POST:
 /trips: Takes a trip object and puts in the trip DB.
 
 /trip: Takes a trip object and updates its fields in the DB. If that trip object's ID is not already in the DB it creates a new entry for it.
