@@ -1,3 +1,11 @@
+## Trip-Planner
+This app was created for the semester project for CIS371.
+
+## Running
+To run the app, in the base directory run "node server.js" to start up the back-end API. To run the client, run "npm start". The client is hosted on localhost:3000, and the server is hosted on localhost:3001.
+
+## React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
