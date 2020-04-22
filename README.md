@@ -4,6 +4,19 @@ This app was created for the semester project for CIS371.
 ## Running
 To run the app, in the base directory run "node server.js" to start up the back-end API. To run the client, run "npm start". The client is hosted on localhost:3000, and the server is hosted on localhost:3001.
 
+## API
+#GET
+/trips: Fetches the list of all trips in the DB.
+
+#POST
+/trips: Takes a trip object and puts in the trip DB.
+
+/trip: Takes a trip object and updates its fields in the DB. If that trip object's ID is not already in the DB it creates a new entry for it.
+
+/deleteTrip: Takes a trip object and deletes it from the DB.
+
+/setTrips: Takes a new trip list and sets the DB list to the new one. Useful when making multiple changes to the list DB.
+
 ## React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
