@@ -16,7 +16,7 @@
     "react-geocode": "^0.2.1",
     "react-google-maps": "^9.4.5",
     "react-native-paper": "^3.8.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
